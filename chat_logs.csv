@@ -1,0 +1,11 @@
+session_id,timestamp,user_msg,bot_reply,intent,resolved
+1001,2025-06-01 10:00:00,How can I reset my password?,Please use this link to reset your password,password_reset,TRUE
+1002,2025-06-01 10:01:00,Do you have weekend support?,I'm sorry, I didn’t get that.,unknown,FALSE
+1003,2025-06-01 10:02:00,What's the status of my order?,Your order #3211 is on the way!,order_status,TRUE
+1004,2025-06-01 10:03:00,I need to speak to an agent,Please hold while I connect you to an agent,escalation,TRUE
+1005,2025-06-01 10:04:00,Hi?,I'm sorry, I didn’t get that.,unknown,FALSE
+1006,2025-06-01 10:05:00,I want to cancel my order,Please confirm your order number to proceed,cancel_order,TRUE
+1007,2025-06-01 10:06:00,Cancel the order now!,I'm sorry, can you clarify your order ID?,cancel_order,FALSE
+1008,2025-06-01 10:07:00,Can I change my delivery address?,You can update your address from your profile settings,change_address,TRUE
+1009,2025-06-01 10:08:00,Do you support PayPal?,I'm sorry, I didn’t get that.,payment_query,FALSE
+1010,2025-06-01 10:09:00,I want to return a product,Returns are accepted within 14 days,return_policy,TRUE
